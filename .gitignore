@@ -1,0 +1,30 @@
+# Vivado temporary and log files
+*.jou
+*.log
+*.pb
+*.jou
+*.str
+*.zip
+*.tmp
+*.debug
+
+# Vivado project directories
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.sdk/
+*.gen/
+
+# Specific build outputs
+*.bit
+*.bin
+*.mcs
+*.prm
+
+
+build/
+
+vivado/**/imports/
