@@ -31,6 +31,10 @@ else ifeq ($(TB),array)
 TB_TOP := $(TB_DIR)/systolic_array_tb.sv
 GTKW_SAVE := $(BUILD_DIR)/array.gtkw
 WAVEFILE := $(BUILD_DIR)/array_wave.vcd
+else ifeq ($(TB),conv)
+TB_TOP := $(TB_DIR)/tb_conv_engine.sv
+GTKW_SAVE := $(BUILD_DIR)/conv.gtkw
+WAVEFILE := $(BUILD_DIR)/conv_engine_wave.vcd
 else
 TB_TOP := $(TB)
 GTKW_SAVE := $(BUILD_DIR)/waves.gtkw
